@@ -1,0 +1,1 @@
+This site acts a journal.
