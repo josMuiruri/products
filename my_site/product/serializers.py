@@ -3,5 +3,12 @@ from . models import Product
 
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
+        fields = (
+            'id',
+            'author',
+            'title',
+            'body',
+            'created_at',
+        )
         model = Product
-        fields = '__all__'
+        # fields = '__all__'
