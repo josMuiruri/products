@@ -9,7 +9,6 @@ class JournalModelTests(TestCase):
     def setUpTestData(cls):
         cls.user = get_user_model().objects.create_user(
             username='testuser',
-            email='test@email.com',
             password='secert',
         )
 
